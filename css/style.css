@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600,700');
+
+:root {
+    --font-large: 42px;
+    --font-medium: 20px;
+    --font-small: 16px;
+    --cinza-header: #f2f2f2;
+    --cinza-text: #808080;
+    --cinza-input: #DFDFDF;
+    -cinza-input-placeholder: #A4A4A4; 
+    --cinza-titulo-footer: #AFAFAF;
+    --cinza-text-footer: #707070;
+    --cinza-barra-etapa: #E6E6E6;
+    --blue: #4455dd;
+    --blue-circulo: #A1AAEB;
+    --border-radius: 5px;
+    --box-shadow-btn: 0px 2px 2px rgba(0, 0, 0, 0.30);
+    --box-shadow-cards: 0px 2px 4px rga(0, 0, 0, 0.30);
+}
