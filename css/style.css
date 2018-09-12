@@ -7,7 +7,7 @@
     --cinza-header: #f2f2f2;
     --cinza-text: #808080;
     --cinza-input: #DFDFDF;
-    -cinza-input-placeholder: #A4A4A4; 
+    --cinza-input-placeholder: #A4A4A4; 
     --cinza-titulo-footer: #AFAFAF;
     --cinza-text-footer: #707070;
     --cinza-barra-etapa: #E6E6E6;
@@ -40,6 +40,14 @@ body {
     grid-column-gap: 30px;
     align-items: center; 
 }
+.btn {
+    background-color: var(--blue);
+    color: #fff;
+    text-align: center;
+    box-shadow: var(--box-shadow-btn);
+    border-radius: var(--border-radius);
+    border: none;
+}
 
     header {
         grid-area: header;
@@ -68,4 +76,8 @@ body {
                     display: inline;
                     margin-right: 20px;
                 }
+/* ----------------------- 12/09/2018 Fim 14:23hrs ---------------------*/
+
+/* ----------------------- 12/09/2018 Início 20:17hrs ---------------------*/
+
 /* ----------------------- 12/09/2018 Fim 14:23hrs ---------------------*/
