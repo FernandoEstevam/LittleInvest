@@ -41,6 +41,7 @@ body {
     align-items: center; 
 }
 .btn {
+    font-size: var(--font-small);
     background-color: var(--blue);
     color: #fff;
     text-align: center;
@@ -65,16 +66,29 @@ body {
             background-position: 0px 0px;
         }
         nav {
-            grid-column: 8/13;           
+            grid-column: 8/13;
+            height: 70px;
+            
+            display: grid;
+            grid-template-columns: repeat(5, 70px);
+            grid-column-gap: 30px;
+            align-items: center;
+            justify-items: end;
         }
             .menu {
                 width: 96%;
+                grid-column: 1/6; 
             }
                 .menu li {
                     font-size: var(--font-small);
                     font-weight: 600;
                     display: inline;
                     margin-right: 20px;
+                }
+                .btn-menu {
+                    width: 120px;
+                    height: 40px;
+                    padding: 10px 0;
                 }
 /* ----------------------- 12/09/2018 Fim 14:23hrs ---------------------*/
 
