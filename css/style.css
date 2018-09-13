@@ -93,5 +93,38 @@ body {
 /* ----------------------- 12/09/2018 Fim 14:23hrs ---------------------*/
 
 /* ----------------------- 12/09/2018 Início 20:17hrs ---------------------*/
+main {
+    grid-area: main;
+    background-color: #fff;
+}
+    .titulo-principal  {
+        grid-column: 12 span;
+        margin-top: 60px; 
 
-/* ----------------------- 12/09/2018 Fim 14:23hrs ---------------------*/
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(12, 70px);
+        grid-column-gap: 30px;
+    }
+        .titulo {
+            font-size: var(--font-large);
+            width: 400px;
+            grid-column: 1/5;
+            line-height: 48px;
+        }
+            .btn-titulo {
+                font-size: var(--font-medium);
+                text-align: left;
+                width: 200px;
+                height: 50px;
+                margin-top: 25px;
+                padding: 13px 10px;
+                grid-column: 1/3;
+            }
+        .img-titulo {
+            max-width: 470px;
+            width: 100%;
+            height: 270px;
+            grid-column: 7/12; 
+        }
+/* ----------------------- 12/09/2018 Fim 21:33hrs ---------------------*/
