@@ -315,9 +315,11 @@ main {
                 margin-bottom: 10px;
             }
             .criar-conta form input {
+                font-size: var(--font-medium);
                 width: 400px;
                 height: 50px;
                 margin-bottom: 20px;
+                padding: 0 10px;
                 border-radius: var(--border-radius);
                 border: none;
                 background-color: var(--cinza-input);
