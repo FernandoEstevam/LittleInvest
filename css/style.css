@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600,600i,700');
 
 :root {
     --font-large: 42px;
@@ -206,7 +206,7 @@ main {
             width: 100%;
             height: auto;
             text-align: center;
-            
+
             display: grid;
             grid-template-columns: repeat(4, 70px);
             grid-column-gap: 30px;
@@ -250,6 +250,47 @@ main {
             grid-column: 6/8;
             margin-top: 20px;
             justify-self: center;
-            /* padding: 0 13px; */
         }
-/* ----------------------- 13/09/2018 Fim 01:19hrs ---------------------*/
+    /* Fazer o commit e acresentar na font-family do import o 600i 
+    section depoimento margin-top */
+    .depoimento {
+        width: 100%;
+        height: 700px;
+        margin-top: 60px;
+        background-image: url(../image/depoimento.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;    
+    }
+        .depoimento .container {
+            position: relative;
+        }
+        .aspas {
+            font-size: 200px;
+            color: var(--blue);
+            position: absolute;
+            top: 320px;
+            left: 50px;
+        }
+        .text-depoimento {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: var(--font-large);
+            font-weight: 600;
+            font-style: italic;
+            color: #fff;
+            line-height: 55px;
+            max-width: 770px;
+            width: 100%;
+            grid-column: 1/9;
+            margin-top: 400px;
+            margin-bottom: 10px;
+            align-self: end;
+        }
+        .nome-depoimento {
+            font-size: var(--font-small);
+            font-weight: 600;
+            font-style: italic;
+            color: var(--cinza-borda);
+            grid-column: 1/3;
+            align-items: end;
+        }
+/* ----------------------- 13/09/2018 Fim 16:14hrs ---------------------*/
