@@ -294,3 +294,37 @@ main {
             align-items: end;
         }
 /* ----------------------- 13/09/2018 Fim 16:14hrs ---------------------*/
+/* ----------------------- 13/09/2018 Início 19:28hrs ---------------------*/
+    .criar-conta {
+        background-color: var(--cinza-header);
+    }
+        .criar-conta form {
+            width: 405px;
+            grid-column: 1/6;
+            margin-top: 60px;
+        }
+            .criar-conta form legend {
+                font-size: var(--font-large);
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .criar-conta form label {
+                font-size: var(--font-medium);
+                width: 400px;
+                float: left;
+                margin-bottom: 10px;
+            }
+            .criar-conta form input {
+                width: 400px;
+                height: 50px;
+                margin-bottom: 20px;
+                border-radius: var(--border-radius);
+                border: none;
+                background-color: var(--cinza-input);
+            }
+            .btn-iniciar-cadastro {
+                font-size: var(--font-medium);
+                width: 200px;
+                height: 50px;
+            }
+/* ----------------------- 13/09/2018 Fim 16:14hrs ---------------------*/
