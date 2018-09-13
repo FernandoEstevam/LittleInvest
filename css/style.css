@@ -172,13 +172,9 @@ main {
                 padding: 10px 0px 10px 15px;
             }
                 .circule-add {
-                    font-weight: bold;
-                    border-radius: 20%;
-                    width: 30px;
-                    height: 30px; 
-                    padding: 5px;
-                    background-color: #fff;
-                    color: var(--blue);
+                    font-size: var(--font-medium);
+                    float: right;
+                    margin-right: 20px;
                 } 
         .card-1 {
             grid-column: 1/4;
@@ -192,6 +188,7 @@ main {
         .card-4 {
             grid-column: 10/13;
         }
+/* ----------------------- 13/09/2018 Fim 01:19hrs ---------------------*/
+/* ----------------------- 13/09/2018 Início 11:05hrs ---------------------*/
 
 /* ----------------------- 13/09/2018 Fim 01:19hrs ---------------------*/
-commit - "Estilizando os cards "
