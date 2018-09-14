@@ -300,7 +300,7 @@ main {
     }
         .criar-conta form {
             width: 405px;
-            grid-column: 1/6;
+            grid-column: 2/6;
             margin-top: 60px;
         }
             .criar-conta form legend {
@@ -329,4 +329,19 @@ main {
                 width: 200px;
                 height: 50px;
             }
-/* ----------------------- 13/09/2018 Fim 16:14hrs ---------------------*/
+/* ----------------------- 13/09/2018 Fim 19:53hrs --------------------- */
+
+/* ----------------------- 14/09/2018 Início 00:26hrs --------------------- */
+            .criar-conta img {
+                grid-column: 8/12;
+                max-width: 370px;
+                width: 100%;
+                max-height: 250px;
+                height: 100%;
+                border: 1px solid red;
+            }
+            .criar-conta h4 {
+                border: 1px solid red;
+                grid-column: 8/12;
+            }
+/* ----------------------- 14/09/2018 Início 00:26hrs --------------------- */
