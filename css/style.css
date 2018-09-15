@@ -49,6 +49,7 @@ body {
     box-shadow: var(--box-shadow-btn);
     border-radius: var(--border-radius);
     border: none;
+    cursor: pointer;
 }
 
     header {
