@@ -356,7 +356,7 @@ main {
     footer {
         grid-area: footer;
         background: black;
-        padding: 20px 0;
+        padding-top: 20px;
     }
         .mapa-site {
             width: 180px;
@@ -431,5 +431,34 @@ main {
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
+/* ----------------------- 15/09/2018 Fim 13:40hrs --------------------- */
 
-/* ----------------------- 15/09/2018 Início 13:40hrs --------------------- */
+/* ----------------------- 15/09/2018 Início 14:20hrs --------------------- */
+    .sobre {
+        width: 100%;
+        height: 100%;
+        grid-column: 8/12;
+    }
+        .sobre h5 {
+            font-size: var(--font-medium);
+            color: var(--cinza-titulo-footer);
+            margin-bottom: 20px;
+        }
+        .sobre p {
+            width: 95%;
+            font-size: var(--font-small);
+            color: #505050;
+        }
+    .direitos-autorias {
+        width: 100%;
+        height: 50px;
+        background-color: var(--blue);
+        color: #fff;
+        font-size: var(--font-small);
+        margin-top: 20px;
+    }
+    .direitos-autorias p {
+        grid-column: 12 span;
+        padding: 15px 0;
+    }
+/* ----------------------- 15/09/2018 Fim --------------------- */
