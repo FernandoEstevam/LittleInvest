@@ -332,16 +332,19 @@ main {
 /* ----------------------- 13/09/2018 Fim 19:53hrs --------------------- */
 
 /* ----------------------- 14/09/2018 Início 00:26hrs --------------------- */
-            .criar-conta img {
-                grid-column: 8/12;
-                max-width: 370px;
-                width: 100%;
-                max-height: 250px;
-                height: 100%;
-                border: 1px solid red;
-            }
-            .criar-conta h4 {
-                border: 1px solid red;
-                grid-column: 8/12;
-            }
+        .img-atendimento {
+            grid-column: 8/12;
+            max-width: 370px;
+            width: 100%;
+            max-height: 250px;
+            height: 100%;
+            border: 1px solid red;
+        }
+        .img-atendimento img {
+            width: 100%;
+        }
+        .img-atendimento h4 {
+            border: 1px solid red;
+            grid-column: 8/12;
+        }
 /* ----------------------- 14/09/2018 Início 00:26hrs --------------------- */
