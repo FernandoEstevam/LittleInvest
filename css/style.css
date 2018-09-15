@@ -360,11 +360,12 @@ main {
     }
         .mapa-site {
             width: 180px;
+            height: 100%;
             grid-column: 1/3;
 
             display: grid;
             grid-template-columns: repeat(2, 70px);
-            grid-column-gap: 30px;
+             grid-column-gap: 30px;
         }
             .mapa-site h5 {
                 grid-column: 1/3; 
@@ -385,4 +386,50 @@ main {
                 font-size: 20px;
                 color:#505050;
             }
-/* ----------------------- 14/09/2018 Início 00:26hrs --------------------- */
+        .rede-socias {
+            width: 100%;
+            height: 100%;
+            grid-column: 4/8;
+        }
+            .rede-socias h5{
+                font-size: var(--font-medium);
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                grid-column: 1/5;
+                color: var(--cinza-titulo-footer);
+                margin-bottom: 20px;
+            }
+            .icon {
+                width: 100%;
+                display: flex;
+            }
+            .icon div {
+                width: 50px;
+                height: 50px;
+                flex-direction: column;
+                margin: 0 20px;
+             }
+            .icon-facebook {
+                background-image: url(../svg/icon-facebook.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                grid-column: 1/3;
+            }
+            .icon-twitter {
+                background-image: url(../svg/icon-twitter.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .icon-instagram {
+                background-image: url(../svg/icon-instagram.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .icon-youtube {
+                background-image: url(../svg/icon-youtube.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+
+/* ----------------------- 15/09/2018 Início 13:40hrs --------------------- */
