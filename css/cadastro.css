@@ -31,6 +31,7 @@
         font-size: var(--font-large);
         margin-bottom: 50px;
     }
+/* -------------------------- 16/09/2018 Início 21:00hrs --------------------------*/
 .etapas {
     width: 100%;
     grid-column: 4/10;
@@ -75,4 +76,44 @@
         border: 2px solid var(--blue-circulo);
         border-radius: 50%;
         background-color: #fff;
+    }
+    .form-cadastro-1 {
+        width: 770px;
+        grid-column: 3/9;
+        border: 1px solid red;
+    
+        display: grid;
+        grid-template-columns: repeat(8, 70px);
+        grid-column-gap: 30px;
+    }
+    .form-cadastro-1 label {
+        width: 70px;
+        font-size: var(--font-medium);
+    }
+    .form-cadastro-1 input {
+        width: 370px;
+        height: 50px;
+        border: none;
+        background-color: var(--cinza-input);
+        margin-top: 10px;
+        border-radius: var(--border-radius);
+        padding: 5px;
+    }
+    input::placeholder {
+        font-style: italic;
+        color: var(--cinza-input-placeholder);
+    }
+    [for="name"], [for="cpf"], [for="email"] {
+        grid-column: 1/5; 
+    }
+    [for="endereco"], [for="estado"], [for="cep"] {
+        grid-column: 5/9;
+    }
+    [for="name"], [for="endereco"], [for="estado"], [for="cpf"] {
+        margin-bottom: 20px;
+    }
+    .btn-proximo {
+        width: 200px;
+        height: 50px;
+        grid-column: 7 span;
     }
