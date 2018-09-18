@@ -80,7 +80,7 @@
     .form-cadastro-1 {
         width: 770px;
         grid-column: 3/9;
-        border: 1px solid red;
+        margin-top: 60px;
     
         display: grid;
         grid-template-columns: repeat(8, 70px);
@@ -113,7 +113,11 @@
         margin-bottom: 20px;
     }
     .btn-proximo {
+        font-size: var(--font-medium);
         width: 200px;
         height: 50px;
-        grid-column: 7 span;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        grid-column: 7/9;
+        justify-self: end;
     }
