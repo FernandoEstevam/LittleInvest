@@ -1,0 +1,68 @@
+:root {
+    --font-large: 42px;
+    --font-medium: 20px;
+    --font-small: 16px;
+    --cinza-header: #f2f2f2;
+    --cinza-borda: #cecece;
+    --cinza-text: #808080;
+    --cinza-input: #DFDFDF;
+    --cinza-input-placeholder: #A4A4A4; 
+    --cinza-titulo-footer: #AFAFAF;
+    --cinza-text-footer: #707070;
+    --cinza-barra-etapa: #E6E6E6;
+    --blue: #4455dd;
+    --blue-circulo: #A1AAEB;
+    --border-radius: 5px;
+    --box-shadow-btn: 0px 2px 2px rgba(0, 0, 0, 0.30);
+    --box-shadow-cards: 0px 2px 4px rga(0, 0, 0, 0.30);
+}
+.form-cadastro-2 {
+    width: 100%;
+    grid-column: 5/9;
+    margin-top: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-column-gap: 30px;
+}
+    .etapa-2 .circule {
+        background-color: var(--blue);
+    }
+    .form-cadastro-2 label {
+        width: 100%;
+        font-size: var(--font-medium);
+    }
+    .form-cadastro-2 input {
+        max-width: 370px;
+        width: 100%;
+        height: 50px;
+        border: none;
+        margin-bottom: 20px;
+        background-color: var(--cinza-input);
+        border-radius: var(--border-radius);
+        padding: 5px;
+    }
+    [for="name_cartao"], #name_cartao {
+        grid-column: 4 span;
+    } 
+    [for="n_cartao"], #n_cartao {
+        grid-column: 4 span;
+    }
+    
+    [for="vencimento"] {
+        grid-column: 1/3;
+    }
+     
+    [for="codigo"] {
+        grid-column: 3/5;
+    }
+    [for="name_cartao"], [for="n_cartao"] {
+        margin-bottom: 10px;
+    }
+    #vencimento, #codigo {
+        margin-top: 10px;
+    }
+    .btn-proximo {
+        grid-column: 1/5;
+        justify-self: center;
+    }
